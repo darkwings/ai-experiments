@@ -1,5 +1,9 @@
 import asyncio
+import logging
 from architect import ArchitectAgent
+
+# Configura il logging all'inizio dell'applicazione
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 async def main_async():
     """Asynchronous main function to run the application."""

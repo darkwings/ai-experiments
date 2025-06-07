@@ -1,5 +1,9 @@
 import streamlit as st
 from architect import ArchitectAgent
+import logging
+
+# Configura il logging all'inizio dell'applicazione Streamlit
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 st.title("The Architect Agent")
 
