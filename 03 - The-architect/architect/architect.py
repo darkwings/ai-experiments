@@ -30,7 +30,7 @@ class ArchitectAgent:
 
     def __init__(self):
         """
-        🏗️ Constructor: build the internal orchestrator LLM, runner, discovery client.
+        🏗️ Constructor: build the internal orchestrator LLM, runners.
         """
         self.agent = self._build_agent()        
 
