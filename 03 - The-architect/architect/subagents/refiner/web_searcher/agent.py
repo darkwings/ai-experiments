@@ -6,7 +6,7 @@ web_searcher = Agent(
     model="gemini-2.0-flash",
     description="Technical articles analyst agent",
     instruction="""
-    You are a helpful assistant that can analyze technical articles about software architecture
+    You are a helpful search assistant that can analyze technical articles about software architecture
     available on the web.
 
     When asked about, you should use the google_search tool to search for technical articles that
